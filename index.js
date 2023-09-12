@@ -1,9 +1,17 @@
 // Code your solutions in this file
-for (let age = 30; age <40; age++){
-    console.log(`I'm ${age} years old. Happy Birthday to me!`);
-    if (age === 39){
-        console.log(`wow dead at ${age} years old, so sad.`)
-        break
-    }
+
+function writeCards(people, event){
+    const thankYouLine = [];
+    for (const name of people){
+        thankYouLine.push(`Thank you, ${name}, for the wonderful ${event} gift!` )    
+    };
+    return thankYouLine; 
+}
+
+function countDown(number){
     
+    for(number; number>-1; number--){
+        console.log(number)
+    }
+
 }
