@@ -9,9 +9,8 @@ function writeCards(people, event){
 }
 
 function countDown(number){
-    
-    for(number; number>-1; number--){
+    while(number >-1){
         console.log(number)
+        number--
     }
-
 }
