@@ -1,13 +1,9 @@
 // Code your solutions in this file
-const gifts = ["teddy bear", "drone", "doll"];
-
-function wrapGifts(gifts) {
-  for (let i = 0; i < gifts.length; i++) {
-    console.log(`Wrapped ${gifts[i]} and added a bow!`);
-    debugger;
-  }
-
-  return gifts;
+for (let age = 30; age <40; age++){
+    console.log(`I'm ${age} years old. Happy Birthday to me!`);
+    if (age === 39){
+        console.log(`wow dead at ${age} years old, so sad.`)
+        break
+    }
+    
 }
-
-wrapGifts(gifts);
